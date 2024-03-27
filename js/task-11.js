@@ -30,3 +30,22 @@ function sum(min, max) {
 }
 
 console.log(sum(0, 10));
+
+function createArrayOfNumbers(min, max) {
+  const arr = [];
+for(let i = min; i <= max; i += 1) {
+  if (!(i%2)) { arr.push(i); }
+  } 
+  return arr;
+}
+console.log(createArrayOfNumbers(1, 9));
+
+function calculateTotalPrice(order) {
+  let total = 0;
+  for (const num of order) {
+    total += num;
+  }
+  return total;
+}
+const order = [1, 2, 3, 4];
+console.log(calculateTotalPrice(order));
