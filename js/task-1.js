@@ -21,3 +21,15 @@ function calcBMI(weight, height) {
 
 const bmi = calcBMI("88,3", "1.75");
 console.log(bmi);
+
+function getCommonElements(array1, array2) {
+  const jointArray = [];
+  for (let i = 0; i < array1.length; i+=1) {
+    if (array2.includes(array1[i])) {
+        jointArray.push(array1[i]);
+    }
+  } return jointArray;
+}
+const array1 = [10, 20, 30, 40];
+const array2 = [4, 30, 17, 10, 40];
+console.log(getCommonElements(array1, array2));
