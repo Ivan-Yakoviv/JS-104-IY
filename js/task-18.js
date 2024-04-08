@@ -41,7 +41,8 @@ const atTheOldToad = {
   },
 
 };
+atTheOldToad.addPotion({ name: "Speed", price: 960 });
 atTheOldToad.updatePotionName("Stone skin", "Invisibility");
 console.log(atTheOldToad.getTotalPrice());
 console.log(atTheOldToad.updatePotionName("Stone skin", "Invisibility"));
-
+console.log(atTheOldToad);
