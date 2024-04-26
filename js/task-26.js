@@ -11,7 +11,7 @@ firstItem.textContent = "Ajax";
 flist.prepend(firstItem);
 
 const article = document.querySelector(".article");
-console.log(article.innerHTML);
+// console.log(article.innerHTML);
 
 const title = document.querySelector(".article .title");
 // title.innerHTML = 'New and <span class="accent">improved</span> title';
@@ -37,8 +37,8 @@ const markup = technologies
 console.log(markup);
 
 // Adding all the markup in one operation
-// list.innerHTML = markup;
-// list.insertAdjacentHTML("beforeend", markup);
+list.innerHTML = markup;
+list.insertAdjacentHTML("beforeend", markup);
 
 // const singleBtn = document.querySelector("#single");
 
