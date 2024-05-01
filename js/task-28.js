@@ -4,4 +4,4 @@
 // `);
 // instance.show();
 
-console.log(_.sum([4, 2, 8, 6])); // 20
+console.log(_.sum([4, 2, 8, 6]));
