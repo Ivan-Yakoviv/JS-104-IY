@@ -2,7 +2,7 @@ const fetchUsersBtn = document.querySelector(".btn");
 const userList = document.querySelector(".user-list");
 
 fetchUsersBtn.addEventListener("click", () => {
-  fetch("<https://jsonplaceholder.typicode.com/users>")
+  fetch("<https://chat.aiapp.org/?model=gpt-3.5>")
     .then((response) => {
       if (!response.ok) {
         throw new Error(response.status);
