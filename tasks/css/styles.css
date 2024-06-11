@@ -35,14 +35,13 @@ body {
 .marquee-inner {
   overflow: hidden;
   display: inline-flex;
-  gap: 10px;
 }
 
 .marquee-line {
   flex-shrink: 0;
   margin: 0;
   display: inline-flex;
-  padding: 40px 0px;
+  padding: 40px 8px;
   align-items: center;
   gap: 16px;
   min-width: 50%;
@@ -86,7 +85,6 @@ body {
 
 .incl-marquee-inner {
   display: inline-flex;
-  gap: 16px;
 }
 
 .incl-marquee-line {
@@ -94,7 +92,7 @@ body {
   flex-shrink: 0;
   margin: 0;
   display: inline-flex;
-  padding: 40px 0px;
+  padding: 40px 8px;
   align-items: center;
   gap: 16px;
   min-width: 50%;
