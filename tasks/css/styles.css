@@ -9,6 +9,9 @@ body {
 }
 
 .tech-skills {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   width: 1280px;
   height: 282px;
   flex-shrink: 0;
