@@ -43,7 +43,7 @@ body {
   display: inline-flex;
   padding: 40px 8px;
   align-items: center;
-  gap: 16px;
+  gap: 26px;
   min-width: 50%;
   white-space: nowrap; /* Забезпечуємо рух тексту в одному рядку */
   overflow: hidden; /* Ховаємо текст, який виходить за межі контейнера */
@@ -94,16 +94,16 @@ body {
   display: inline-flex;
   padding: 40px 8px;
   align-items: center;
-  gap: 16px;
+  gap: 26px;
   min-width: 50%;
   /* white-space: nowrap;
   animation-name: marqueeLine;
   animation-duration: 6s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite; */
-  white-space: nowrap; /* Забезпечуємо рух тексту в одному рядку */
-  overflow: hidden; /* Ховаємо текст, який виходить за межі контейнера */
-  animation: marqueeLine 8s linear infinite; /* Застосовуємо анімацію */
+  white-space: nowrap; /*Забезпечуємо рух тексту в одному рядку */
+  overflow: hidden; /*Ховаємо текст, який виходить за межі контейнера */
+  animation: marqueeLine 8s linear infinite; /*Застосовуємо анімацію */
 }
 
 @keyframes marqueeLine {
